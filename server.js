@@ -7,7 +7,7 @@ const mongoose = require('mongoose')
 const config = require('./config/database')
 
 
-//Connect to MongoDB Database
+//Connect to MongoDB Database 
 mongoose.connect(config.database);
 
 //On Connection
